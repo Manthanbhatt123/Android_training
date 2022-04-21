@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">VegeKart</string>
+    <string name="vegecart">VegeCart</string>
+    <string name="potatoes_40rs_kg">Potatoes 40Rs/Kg</string>
+    <string name="todo">TODO</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="capsicum_40rs_kg">Capsicum 40Rs/Kg</string>
+    <string name="brocolli_25rs_kg">Brocolli 25Rs/Kg</string>
+    <string name="lemon_10_rs_kg">Lemon 10 Rs/kg</string>
+</resources>

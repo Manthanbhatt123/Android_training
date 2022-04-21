@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home_activity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/HomeText1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="VegCart"
+        android:textColor="@color/teal_200"
+        android:textSize="35sp"
+        android:textStyle="italic"
+        android:typeface="serif"
+        app:layout_constraintBottom_toTopOf="@id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/guideline2">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/customlayout"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/guideline2">
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop1"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/shop1"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toStartOf="@+id/BtnShop2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop2"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shop2"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/BtnShop1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop3"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/shop3"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toStartOf="@+id/BtnShop4"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop1" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop4"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shop4"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/BtnShop1"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop2" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop5"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/shop5"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toStartOf="@id/BtnShop6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop3" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop6"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shop6"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/BtnShop5"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop4" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop7"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/shop7"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toStartOf="@id/BtnShop8"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop5" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop8"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shop8"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/BtnShop7"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop6" />
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop9"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="1dp"
+                android:background="@drawable/shop9"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toStartOf="@id/BtnShop10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop7" />
+
+            <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/BtnShop10"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/shop10"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:typeface="serif"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/BtnShop9"
+                app:layout_constraintTop_toBottomOf="@id/BtnShop8" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.35" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
